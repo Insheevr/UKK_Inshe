@@ -48,7 +48,6 @@ include "navbar.php";
 
 
 </style>
-
 <div class="card mt-2">
 	<div class="card-body">
 		<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#tambah-data">

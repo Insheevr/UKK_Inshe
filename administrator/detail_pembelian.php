@@ -2,6 +2,53 @@
 include "header.php";
 include "navbar.php";
 ?>
+
+
+<style>
+
+    .card {
+			background-color: #c5baff; 
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+			border-radius: 12px;
+		}
+
+		.btn-primary {
+		background-color: #6c48c5;
+		border-color: #c5baff;
+		}
+		
+		.card-body {
+			background-color: #c5baff;
+			border-radius: 10px;
+		}
+
+		.modal-content {
+			background-color: #c5baff; 
+			border-radius: 10px;
+		}
+
+		table {
+			background-color: #c5baff;
+		}
+
+		th, td {
+			background-color: #c4d9ff;
+		}
+
+		.alert {
+			background-color: rgba(25, 135, 84, 0.1);
+			color: #c5baff;
+			border: 1px solidrgb(25, 135, 89);
+		}
+
+		.form-control {
+			background-color: #c5baff;
+		}
+
+
+
+
+</style>
 <div class="card mt-2">
     <div class="card-body">
 
