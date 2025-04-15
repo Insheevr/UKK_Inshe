@@ -42,11 +42,19 @@ include "navbar.php";
 		}
 
 		.form-control {
-			background-color: #c5baff;
+			background-color: #6c48c5;
+            color: #fff;
 		}
 
+        .btn-info {
+            background-color:rgb(87, 225, 235);
+            border-color:rgb(186, 241, 255);
+            color: #000;
+        }
 
-
+        .form-group {
+            margin-bottom: 15px;
+        }
 
 </style>
 <div class="card mt-2">
@@ -86,7 +94,7 @@ include "navbar.php";
                     <input type="text" name="PenjualanID" value="<?php echo $d['PenjualanID']; ?>" hidden>
                     <input type="text" name="PelangganID" value="<?php echo $d['PelangganID']; ?>" hidden>
                     <button type="submit" class="btn btn-primary btn-sm mt-2">
-                        Tambah Barang
+                    <i class="fi fi-rr-add"></i>  Tambah Barang
                     </button>
                 </form>
                 <table class="table">
